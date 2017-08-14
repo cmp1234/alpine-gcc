@@ -8,6 +8,7 @@ RUN apk add --no-cache --virtual .build-deps \
         coreutils \
         gcc \
         linux-headers \
+	curl \
         make \
         musl-dev && \ 
     apk add --no-cache --virtual .run-deps \
