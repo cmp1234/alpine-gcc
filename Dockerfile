@@ -9,4 +9,6 @@ RUN apk add --no-cache --virtual .build-deps \
         gcc \
         linux-headers \
         make \
-        musl-dev 
+        musl-dev && \ 
+    apk add --no-cache --virtual .run-deps \
+	libcrypto1.0     
